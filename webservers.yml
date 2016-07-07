@@ -1,0 +1,7 @@
+--- # Master Playbook for Web Servers
+- hosts: apacheserver
+  user: ansible
+  sudo: yes
+  connection: ssh
+  roles:
+    - webservers
